@@ -1,0 +1,230 @@
+body {
+    background-color: #6b0217;
+    background-image: url(images/testeFundo2.png);
+    background-repeat: no-repeat;
+    background-position: center center; /* Centraliza horizontal e verticalmente */
+    background-size: 100vw 100vh; /* Ajusta o tamanho do background para a largura e altura completas da tela */
+    background-attachment: fixed;
+    position: relative;
+}
+
+.computerPage{
+    display: none;
+}
+
+.mobilePage{
+    display: block;
+}
+
+.centralLogo{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.subLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleORHTAON{
+    margin-top: 10px;
+    font-family: Poppins;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
+
+}
+
+.subtitleARI{
+    color: #c76a76;
+    font-family: Dancing Script;
+    font-size: 36px;
+    margin-top: -45px;
+    font-weight: 500;
+
+}
+
+.subtitle2{
+    margin-top: -15px;
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.logoPrincipal{
+    width: 170px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.418);
+}
+
+.containerButtons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(252, 200, 200);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 45px;
+    background-color: #570415;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.button2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(252, 200, 200);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 45px;
+    background-color: #570415;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.button3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(252, 200, 200);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 45px;
+    background-color: #570415;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.button4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(252, 200, 200);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 45px;
+    background-color: #570415;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.button5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(252, 200, 200);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 45px;
+    background-color: #570415;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.212);
+}
+
+.logoLinked1{
+    width: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.logoLinked2{
+    width: 24px;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+
+.logoWhats1{
+    width: 24px;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+
+.logoWhats2{
+    width: 24px;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+
+.logoPreco{
+    width: 24px;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+
+
+.newtabImg1{
+    width: 24px;
+    margin-left: 120px;
+    opacity: 10%;
+}
+
+.newtabImg2{
+    width: 24px;
+    margin-left: 119px;
+    opacity: 10%;
+}
+
+.newtabImg3{
+    width: 24px;
+    margin-left: 140px;
+    opacity: 10%;
+}
+
+.newtabImg4{
+    width: 24px;
+    margin-left: 89px;
+    opacity: 10%;
+}
+
+.newtabImg5{
+    width: 22px;
+    margin-left: 79px;
+    opacity: 10%;
+}
+
+
+.sloganContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sloganContent{
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: Montserrat;
+    font-size: 15px;
+}
